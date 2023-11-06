@@ -2,27 +2,28 @@
 <html lang="en">
 
 <head>
-    <!--try psuh-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style> </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="card-container">
-        <div class="card">
+        <div class="card" id="card">
             <div class="card-front">
-                <!-- Front content of the card -->
-                <!--<img src="https://thetyee.ca/News/2013/12/04/roomforrent300px.jpg"><img>-->
-                <img src="IMG_3558.jpg"><img>
-
+                <img src="IMG_3558.jpg">
             </div>
             <div class="card-back">
-                <img src="notes.jpeg"><img>
+                <img src="notes.jpeg">
             </div>
         </div>
     </div>
+    <script>
+        const card = document.getElementById("card");
+        card.addEventListener("click", () => {
+            card.classList.toggle("is-rotated");
+        });
+    </script>
 </body>
 
 </html>
