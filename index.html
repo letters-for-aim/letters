@@ -11,19 +11,16 @@
     <div class="card-container">
         <div class="card" id="card">
             <div class="card-front">
-                <img src="IMG_3558.jpg">
+                <img src="cards/front/IMG_3558.jpg">
             </div>
             <div class="card-back">
-                <img src="notes.jpeg">
+                <img src="cards/back/notes.jpeg">
             </div>
         </div>
     </div>
-    <script>
-        const card = document.getElementById("card");
-        card.addEventListener("click", () => {
-            card.classList.toggle("is-rotated");
-        });
-    </script>
+    <div class="mailbox" id="mailbox">📫</div>
+    <div class="items" id="items"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>
