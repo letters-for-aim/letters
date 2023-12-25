@@ -45,7 +45,10 @@ const itemData = {
         frontImage: "aimjapan.jpg",
         backImage: "courtesy of osaka.png"
     },
-   
+    "xmas": {
+        frontImage: "aim xmas.jpg",
+        backImage: "christmas letter.png"
+    },
    
 
     // Add more items as needed
