@@ -47,8 +47,8 @@ const itemData = {
     backImage: "christmas letter.png",
   },
 
-  "aim being funny": {
-    frontIMage: "aim.jpg",
+  aimbeingfunny: {
+    frontImage: "aim.jpg",
     backImage: "aim.jpg",
   },
 
