@@ -11,42 +11,16 @@
     <div class="card-container">
         <div class="card" id="card">
             <div class="card-front">
-                <img src="IMG_3558.jpg">
+                <img src="cards/front/IMG_3558.jpg">
             </div>
             <div class="card-back">
-                <img src="notes.jpeg">
+                <img src="cards/back/notes.jpeg">
             </div>
         </div>
     </div>
     <div class="mailbox" id="mailbox">📫</div>
-    <div class="items" id="items">
-        <div class="item" data-image="IMG_3558.jpg">Item 1</div>
-        <div class="item" data-image="notes.jpeg">Item 2</div>
-        <!-- Add more items as needed -->
-    </div>
-    <script>
-        const card = document.getElementById("card");
-        card.addEventListener("click", () => {
-            card.classList.toggle("is-rotated");
-        });
-
-        const mailbox = document.getElementById("mailbox");
-        const items = document.getElementById("items");
-
-        mailbox.addEventListener("click", () => {
-            items.classList.toggle("items-open");
-        });
-
-        items.addEventListener("click", (e) => {
-            if (e.target.classList.contains("item")) {
-                const imageSrc = e.target.getAttribute("data-image");
-                document.querySelector(".card-front img").src = imageSrc;
-                document.querySelector(".card-back img").src = imageSrc;
-                card.classList.toggle("is-rotated");
-                items.classList.toggle("items-open");
-            }
-        });
-    </script>
+    <div class="items" id="items"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>
