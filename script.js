@@ -45,7 +45,14 @@ const itemData = {
         frontImage: "aimjapan.jpg",
         backImage: "courtesy of osaka.png"
     },
+<<<<<<< HEAD
    
+=======
+    "xmas": {
+        frontImage: "aim xmas.jpg",
+        backImage: "christmas letter.png"
+    },
+>>>>>>> 22409f1270ec3d91090a78c035e656685ccc2ae3
    
 
     // Add more items as needed
