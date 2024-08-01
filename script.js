@@ -51,6 +51,10 @@ const itemData = {
     frontImage: "aim.jpg",
     backImage: "aim.jpg",
   },
+  happyNationalGfDay: {
+    frontImage: "tood1.png",
+    backImage: "tood2.png",
+  },
 
   // Add more items as needed
 };
